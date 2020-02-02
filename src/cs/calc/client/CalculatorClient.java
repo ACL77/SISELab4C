@@ -14,7 +14,7 @@ public class CalculatorClient {
         final Calculator calc = (Calculator) calcService.getCalculatorPort();
 
         ((BindingProvider) calc).getRequestContext().put(BindingProvider.ENDPOINT_ADDRESS_PROPERTY,
-                "http://localhost:8090/calcservice");
+                "http://146.193.7.122:8091/calcservice");
 
         runCalculator(calc);
 
@@ -27,6 +27,40 @@ public class CalculatorClient {
      * */
     public static void runCalculator(Calculator calc) {
         // implement in this method
+
+        while (true){
+            try{
+                //cria a janela para introduzir a soma, tipo '1+1'
+                String expression = JOptionPane.showInputDialog("Insira Expressao:");
+                System.out.println(expression);
+
+                //se aparecer 'exit' ele fecha a janela - while loop é terminado
+                if (expression.equals("exit")){
+                    break;
+                }
+
+                //extra if I used when trying to exchange messages with Pedro
+                if (!expression.contains("+") && !expression.contains("*") && !expression.equals("A")){
+
+                    String msg = calc.msg(expression);
+                    JOptionPane.showMessageDialog(null,msg);
+                    System.out.println("Server:" + msg);
+
+
+                }else{
+
+                //faz a conta que eu introduzi - o '1+1'  e que esta guardado em expression
+                int res = eval(expression,calc);
+
+                //imprime, aqui (nao na app) o resultado da conta
+                System.out.println(res);
+
+                //permite que o resultado da conta apareca na janela igual a qul inserimos as coisasx
+                JOptionPane.showMessageDialog(null,"Resultado:"+res);}
+            } catch(Exception e){}
+
+        }
+
     }
 
     /*

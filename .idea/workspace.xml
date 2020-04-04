@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44086356-9f5d-439a-be11-28b029af6ee6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cs/calc/client/CalculatorClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs/calc/client/CalculatorClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,13 +82,21 @@
       <option name="project" value="LOCAL" />
       <updated>1579647480191</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="client part">
+      <created>1580651702599</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580651702599</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adds a partial implementation of a Calculator Client" />
     <MESSAGE value="Adds the dependency libraries and the wsimport tool for generating the stubs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds the dependency libraries and the wsimport tool for generating the stubs" />
+    <MESSAGE value="client part" />
+    <option name="LAST_COMMIT_MESSAGE" value="client part" />
   </component>
   <component name="WindowStateProjectService">
     <state x="232" y="42" key="#Project_Structure" timestamp="1579648348646">
@@ -106,10 +112,11 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="370" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.760@0.0.1280.760" timestamp="1579648608603" />
-    <state x="306" y="0" key="CommitChangelistDialog2" timestamp="1579649284491">
-      <screen x="0" y="0" width="1280" height="760" />
+    <state x="348" y="0" key="CommitChangelistDialog2" timestamp="1580651701216">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="306" y="0" key="CommitChangelistDialog2/0.0.1280.760@0.0.1280.760" timestamp="1579649284491" />
+    <state x="348" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1580651701216" />
     <state x="420" y="139" key="FileChooserDialogImpl" timestamp="1579648454603">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -154,6 +161,10 @@
     </state>
     <state width="1481" height="246" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1579944963684" />
     <state width="1481" height="246" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1579802687807" />
+    <state x="261" y="80" key="Vcs.Push.Dialog.v2" timestamp="1580651704677">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="261" y="80" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1580651704677" />
     <state x="668" y="195" key="com.intellij.ide.util.TipDialog" timestamp="1580131673539">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
